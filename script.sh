@@ -7,7 +7,7 @@ while read date
 do
   fileName=`echo "$date" | tr " " "_"`
   #echo $fileName -> Sun_Jan_06
-  date="$date 10:00 2015 +0300"
+  date="$date 10:00 2014 +0300"
   #echo $date -> Sun Jan 06 10:00 2015 +0300
   echo "Creating file... $fileName"
   touch "$fileName"
